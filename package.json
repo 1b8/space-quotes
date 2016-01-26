@@ -6,5 +6,8 @@
   "description": "space quotes",
   "dependencies": {
     "markov": "0.0.7"
+  },
+  "bin": {
+    "space-quotes": "cmd.js"
   }
 }
