@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-require('..')(function (gen) {
+require('./quotes')(function (gen) {
   console.log(gen());
 });
