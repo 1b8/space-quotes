@@ -13,7 +13,3 @@ function loader(cb) {
     });
   });
 };
-
-if (require.main === module) loader(function () {
-  console.log(gen());
-});
